@@ -5,6 +5,16 @@ public class Departamento {
     private Funcionario[] funcionarios = new Funcionario[5];
     private int contador = 0;
 
+    public String getNomeDepartamento() {
+        return nomeDepartamento;
+    }
+    public int getQuantidadeFuncionarios() {
+        return contador;
+    }
+    public Funcionario getFuncionario(int i) {
+        return (i >= 0 && i < contador) ? funcionarios[i] : null;
+    }
+
     public Departamento(String nomeDepartamento) {
         this.nomeDepartamento = nomeDepartamento;
     }
@@ -19,7 +29,7 @@ public class Departamento {
     }
 
     public void listarFuncionarios() {
-        System.out.print("\n📋 " + nomeDepartamento + ":");
+        System.out.print(nomeDepartamento + ":");
         if (contador == 0) {
             System.out.println("nenhum funcionario");
             return;
@@ -39,9 +49,5 @@ public class Departamento {
         return total;
     }
 
-    public String getNomeDepartamento() { return nomeDepartamento; }
-    public int getQuantidadeFuncionarios() { return contador; }
-    public Funcionario getFuncionario(int i) {
-        return (i >= 0 && i < contador) ? funcionarios[i] : null;
-    }
+
 }

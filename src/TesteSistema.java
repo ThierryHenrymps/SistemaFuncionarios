@@ -29,7 +29,7 @@ public class TesteSistema {
                     deptTI.listarFuncionarios();
                     break;
                 case 3:
-                    System.out.println("💰 folha: R$ " + deptTI.calcularFolhaSalarial());
+                    System.out.println("folha: R$ " + deptTI.calcularFolhaSalarial());
                     break;
                 case 4:
                     System.out.println(" Prosseguindo ...");
@@ -72,7 +72,7 @@ public class TesteSistema {
                         break;
 
                     case 4:
-                        System.out.println("👋 encerrando ...");
+                        System.out.println("encerrando ...");
                         break;
 
                     default:

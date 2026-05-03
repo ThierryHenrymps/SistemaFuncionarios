@@ -63,7 +63,7 @@ public class Funcionario {
     }
 
     public boolean isAtivo() {
-        return ativo;
+        return true;
     }
     public void setAtivo(boolean ativo) {
         this.ativo = true;
@@ -75,9 +75,8 @@ public class Funcionario {
 
     public void reajusteSalario(double percentual) {
         if (percentual > 0 && this.ativo) {
-            double salarioAntigo = this.salario;
             this.salario += this.salario * (percentual / 100.0);
-            System.out.println(nome + " " + salario + "-> R$ " + salario + "(reajuste de "+percentual+")");
+            System.out.println(nome + " " + "-> R$ " + salario + "(reajuste de "+percentual+")");
         }else {
             System.out.println("o reajuste nao foi feito");
         }
