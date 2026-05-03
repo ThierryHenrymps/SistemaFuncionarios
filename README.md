@@ -16,7 +16,7 @@ usuario e tera uma vasta opcao. Sendo reajuste salarial, podendo demitir
 o usuario selecionado, a exibicao dos dados pessoais dele, e por ultimo
 a finalizacao do sistema.
 
-##Descricao de classes
+#Descricao de classes
 ##TesteSistema(MAIN)
 O arquivo TesteSistema e a main do projeto nele esta a estrutura principal
 de inicializacao presente no projeto.
@@ -54,4 +54,6 @@ lista de funcionario, Folha salarial e menu unico de funcionario.
 Esse meno e o menu unico de funcionario, nele contem reajuste salarial, demitir,
 exibir dados e a finalizacao de todo sistema.
 
+##Aluno
+Feito por Thierry Henry, Segundo Periodo TI CEFET.
 

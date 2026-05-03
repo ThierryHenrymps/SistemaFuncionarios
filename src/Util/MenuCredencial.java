@@ -8,7 +8,7 @@ public class MenuCredencial {
         System.out.println("++++++++++++++++++++");
         System.out.println("-----Credenciais----");
         System.out.println("++++++++++++++++++++");
-        System.out.print("Nome do funcionário: ");
+        System.out.print("Nome do funcionario: ");
         String nome = input.nextLine();
         System.out.print("CPF: ");
         String cpf = input.nextLine();
